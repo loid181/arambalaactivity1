@@ -1,14 +1,52 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
-package arambala1;
 
-/**
- *
- * @author PC 33
- */
+package arambala1;
+import java.util.Scanner;
 public class activity3arambala {
-    
+     
+    public static void main(String[] args) {
+         Scanner sc = new Scanner(System.in);
+         int num=0;
+         System.out.print("Enter a number: ");
+         num = sc.nextInt();
+         if(num>0)
+         {
+             System.out.println(num+ " is a positive number");
+         }
+         else if(num<0)
+         {
+             System.out.println(num+ " is a negative number");
+         }
+         else
+         {
+             System.out.println("Inputted number is ZERO");
+         }
+         System.out.print("Enter a number: ");
+         num = sc.nextInt();
+         if(num>0)
+         {
+             System.out.println(num+ " is a positive number");
+         }
+         else if(num<0)
+         {
+             System.out.println(num+ " is a negative number");
+         }
+         else
+         {
+             System.out.println("Inputted number is ZERO");
+         }
+         System.out.print("Enter a number: ");
+         num = sc.nextInt();
+         if(num>0)
+         {
+             System.out.println(num+ " is a positive number");
+         }
+         else if(num<0)
+         {
+             System.out.println(num+ " is a negative number");
+         }
+         else
+         {
+             System.out.println("Inputted number is ZERO");
+         }
+}
 }
